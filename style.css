@@ -1,0 +1,20 @@
+body {
+    height: 100%;
+    margin: 5px;
+  }
+  .grid {
+    border: 1px solid #000;
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .grid > div {
+    display: flex; 
+    flex-basis: calc(25% - 2px);  
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #000;
+  }
+
+  
